@@ -1,6 +1,27 @@
 import React from 'react'
-
-
+function image(){
+    const name ='jnanabhusan behera';
+    const img1="https://picsum.photos/200/300";
+    const img2="https://picsum.photos/201/300";
+    const img3="https://picsum.photos/203/300";
+    const heading={
+        color:"rgb(0, 89, 255)",
+        textAlign: "center",
+        textTransform: "capitalize",
+        fontWeight: "bold",
+        textShadow: "0px 2px 4px" ,
+        fontFamily: '"Style Script", cursive'
+      }
+      return (
+        <div className="App">
+     
+      <h1 style={heading}>{name}</h1>
+      <img src={img1} alt=""/>
+      <img src={img2} alt=""/>
+      <img src={img3} alt=""/>
+        </div>
+      );
+}
 function Create() {
     let curDate= new Date();
     curDate =curDate.getHours();
@@ -25,4 +46,4 @@ function Create() {
     )
 }
 
-export default Create
+export {Create, image};

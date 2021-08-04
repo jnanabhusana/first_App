@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  width: 70%;
+margin: 10% auto;
 }
 
 .App-logo {
@@ -36,11 +39,11 @@
     transform: rotate(360deg);
   }
 }
-.heading{
+/* .heading{
   color:rgb(0, 89, 255);
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
   text-shadow: 0px 2px 4px;
   font-family: 'Style Script', cursive;
-}
+} */
